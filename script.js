@@ -42,3 +42,54 @@ function closeBlog() {
     isOverlayOpen = false;
     document.getElementById('blogOverlay').style.display = 'none';
 }
+
+tsParticles.load("tsparticles", {
+    fullScreen: {
+      enable: false
+    },
+    background: {
+      color: {
+        value: "transparent"
+      }
+    },
+    particles: {
+      number: {
+        value: 50,
+        density: {
+          enable: true,
+          value_area: 800
+        }
+      },
+      color: {
+        value: "#1abc9c"
+      },
+      links: {
+        enable: true,
+        distance: 150,
+        color: "#2980b9",
+        opacity: 0.5,
+        width: 5
+      },
+      move: {
+        enable: true,
+        speed: 2.0
+      },
+      size: {
+        value: 7
+      }
+    },
+    interactivity: {
+      events: {
+        onClick: {
+          enable: true,
+          mode: "push"
+        }
+      },
+      modes: {
+        push: {
+          quantity: 1
+        }
+      }
+    }
+  });
+  

@@ -60,6 +60,7 @@ body {
     padding-right: 30px;
     cursor: pointer;
     justify-content: space-evenly;
+    user-select: none;
 }
   
 .navbar-right li a {
@@ -130,7 +131,8 @@ body {
 .about h1,
 .contact h1,
 .blog h1 {
-    font-size: 2.2rem;
+    font-size: 3rem;
+    user-select: none;
 }
   
 .about p,
@@ -234,6 +236,11 @@ button:not(.read-more-btn):hover {
     font-size: 14px;
     margin-bottom: 12px;
     color: var(--font-color);
+    user-select: none;
+}
+
+.social-icons {
+    user-select: none;
 }
   
 .social-icons a {
@@ -326,6 +333,7 @@ button:not(.read-more-btn):hover {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 100vh;
     transform: translateY(-50px);
+    user-select: none;
 }
   
 .animated-text {
